@@ -1,0 +1,116 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.timer {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.timer h1 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.timer p {
+    font-size: 48px;
+    margin: 0;
+}
+
+.timer button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 80px;
+}
+
+.todo {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.todo h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.todo form {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.todo input[type="text"] {
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.todo button[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    width: 80px;
+}
+
+.todo ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.todo li {
+    border-bottom: 1px solid #f2f2f2;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.completed {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.completed h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.completed ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.completed li {
+    border-bottom: 1px solid #f2f2f2;
+    font-size: 16px;
+    padding: 10px;
+}
